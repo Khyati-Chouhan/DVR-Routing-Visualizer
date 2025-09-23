@@ -1,5 +1,2 @@
-# About:
-This project is basic simulation trail of distance vector routing in computer networks for practice of using components of shadcn/ui
-#
-Here is the demo:
+An interactive simulator for Distance Vector Routing. Visualizes routing tables, supports loop-prevention techniques, simulates link failures, and allows dynamic exploration of network topologies.
 (https://dvr-cn.vercel.app/)
