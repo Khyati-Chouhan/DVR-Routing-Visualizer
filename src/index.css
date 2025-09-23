@@ -1,0 +1,55 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+
+:root {
+  --main: #88aaee;
+  --overlay: rgba(0, 0, 0, 0.8);
+  --bg: #dfe5f2;
+  --bw: #fff;
+  --blank: #000;
+  --border: #000;
+  --text: #000;
+  --mtext: #000;
+  --ring: #000;
+  --ring-offset: #fff;
+
+  --border-radius: 5px;
+  --box-shadow-x: 4px;
+  --box-shadow-y: 4px;
+  --reverse-box-shadow-x: -4px;
+  --reverse-box-shadow-y: -4px;
+  --base-font-weight: 500;
+  --heading-font-weight: 700;
+  --destructive: 0 84.2% 60.2%;
+
+  --destructive-foreground: 0 0% 98%;
+
+  /* Fix shadow definition */
+  --shadow-x: 4px;
+  --shadow-y: 4px;
+  --shadow: var(--shadow-x) var(--shadow-y) 0px 0px var(--border);
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+}
+
+.dark {
+  --bg: #272933;
+  --bw: #212121;
+  --blank: #fff;
+  --border: #000;
+  --text: #e6e6e6;
+  --mtext: #000;
+  --ring: #fff;
+  --ring-offset: #000;
+  --destructive: 0 62.8% 30.6%;
+
+  --destructive-foreground: 0 0% 98%;
+
+
+  --shadow: var(--shadow-x) var(--shadow-y) 0px 0px var(--border);
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+}
